@@ -13,10 +13,12 @@
   </head>
   <body>
     <header class="header">
-      <img src="./img/logo.png" alt="logo" class="logo" />
+      <a href="/" class="header-logo">
+        <img src="./img/logo.png" alt="logo" class="logo" />
+      </a>
       <div class="line"></div>
       <input
-        type="text"
+        type="search"
         class="search-input"
         placeholder="Поиск по фильмам..."
       />
@@ -29,6 +31,16 @@
       <div class="btn-group">
         <button class="btn btn-sign-up">Регистрация</button>
         <button class="btn btn-log-in">Войти</button>
+      </div>
+      <div class="mobile-btns">
+        <button class="m-search-btn">
+          <img src="./img/search-icon.svg" alt="search" />
+        </button>
+        <button class="m-menu-btn">
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+        </button>
       </div>
     </header>
     <section class="film">
@@ -192,7 +204,41 @@
       <!-- /.container -->
     </section>
     <!-- /.cast -->
-    <footer></footer>
+    <section class="news">
+      <div class="container">
+        <h2 class="section-title section-news-title">Новости по теме</h2>
+        <div class="news-cards">
+          <div class="news-card">
+            <span class="news-date">31 марта 2020</span>
+            <h3 class="news-title">
+              «Морбиуса» и «Охотников за привидениями» перенесли на следующий
+              год
+            </h3>
+          </div>
+          <div class="news-card">
+            <span class="news-date">9 декабря 2019</span>
+            <h3 class="news-title">
+              Наследники: Вышел дебютный трейлер новых «Охотников за
+              привидениями»
+            </h3>
+          </div>
+          <div class="news-card">
+            <span class="news-date">11 ноября 2019</span>
+            <h3 class="news-title">
+              Новые «Охотники за привидениями» обзавелись названием
+            </h3>
+          </div>
+          <div class="news-card">
+            <span class="news-date">19 октября 2019</span>
+            <h3 class="news-title">
+              Завершились съёмки новых «Охотников за привидениями»
+            </h3>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.section news -->
     <script src="./js/script.js"></script>
   </body>
 </html>
