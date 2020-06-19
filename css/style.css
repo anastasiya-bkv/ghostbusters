@@ -549,7 +549,6 @@ button {
     padding-bottom: 70px;
   }
   .news-card {
-    max-width: 90%;
     min-height: 130px;
   }
 }
@@ -607,6 +606,7 @@ button {
     margin-bottom: 20px;
   }
   .news-card {
+    max-width: 90%;
     flex-basis: 100%;
     min-height: 150px;
   }
