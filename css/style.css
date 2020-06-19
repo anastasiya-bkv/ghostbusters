@@ -358,17 +358,12 @@ button {
   margin-bottom: 65px;
 }
 
-.news-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .news-card {
   flex-basis: 23%;
   background-color: #fff;
   padding: 30px;
   border-radius: 5px;
+  min-height: 190px;
 }
 
 .news-date {
@@ -420,6 +415,9 @@ button {
   .btn-sign-up {
     padding: 0 20px;
   }
+  .news-card {
+    min-height: 190px;
+  }
   .card-image {
     width: 70px;
     height: 70px;
@@ -461,6 +459,7 @@ button {
   .news-card {
     flex-basis: 48%;
     margin-bottom: 20px;
+    min-height: 135px;
   }
 }
 
@@ -551,9 +550,7 @@ button {
   }
   .news-card {
     max-width: 90%;
-  }
-  .btn-next {
-    display: block;
+    min-height: 130px;
   }
 }
 
@@ -611,5 +608,9 @@ button {
   }
   .news-card {
     flex-basis: 100%;
+    min-height: 150px;
+  }
+  .btn-next {
+    display: block;
   }
 }
